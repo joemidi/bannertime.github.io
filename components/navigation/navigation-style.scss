@@ -1,0 +1,130 @@
+@import 'mixins';
+@import 'functions';
+
+.navigation {
+  flex: 0 0 auto;
+  transition: background 250ms;
+  background: getColor(white);
+  border-bottom: 1px solid getColor(alto);
+}
+
+.navigation__inner {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.6em 1em;
+
+  @include break {
+    padding:0 1.5em;
+  }
+}
+
+.navigation__mobile {
+  display: flex;
+  font-size: 1.5em;
+  position: absolute;
+  top: .64em;
+  align-items: center;
+  color: getColor(elephant);
+  cursor: pointer;
+  transition: color 250ms;
+
+  &:active {
+    color: getColor(alto);
+  }
+
+  @include break {
+    display: none;
+  }
+
+  .icon-menu {
+    display: inline-flex;
+  }
+}
+
+.navigation__logo {
+  margin:auto;
+}
+
+.navigation__links {
+  display: none;
+
+  @include break {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.navigation__link {
+  @include break {
+    display:inline-block;
+    font-size: getFontSize(-1);
+    text-transform: uppercase;
+    color: getColor(elephant);
+    transition:all 250ms;
+    padding:1.5em 0.75em;
+
+    &:last-child {
+      margin-right:0.75em;
+    }
+  }
+
+  @include break('large') {
+    padding:1.5em;
+  }
+
+  &:hover {
+    color: darken(getColor(malibu), 30%);
+  }
+
+  &--active {
+    background: darken(getColor(white), 5%);
+  }
+}
+
+.navigation__icon {
+  display: none;
+}
+
+@include break {
+  .navigation__icon {
+    display: block;
+    margin-left: 1em;
+    color: getColor(elephant);
+
+    &:hover {
+      color: darken(getColor(malibu), 30%);
+    }
+  }
+}
+
+.navigation__bottom {
+  display: none;
+  background: darken(getColor(white), 5%);
+
+  @include break {
+    display: block;
+  }
+}
+
+.navigation__child {
+  font-size: getFontSize(-1);
+  margin: 0.5em 1em 0.6em;
+  color: getColor(dove-grey);
+  text-transform: uppercase;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:hover {
+    color: darken(getColor(malibu), 30%);
+  }
+
+  &--active {
+    color: getColor(elephant);
+    font-weight: 600;
+  }
+}

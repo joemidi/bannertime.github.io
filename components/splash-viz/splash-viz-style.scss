@@ -1,0 +1,21 @@
+@import 'functions';
+@import 'vars';
+@import 'mixins';
+
+.splash-viz {
+  background: getColor(sky);
+  display: none;
+  height: 474px;
+
+  @include break {
+    display: block;
+  }
+
+  &__flow {
+    padding: 74px 24px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
