@@ -5,7 +5,7 @@ contributors:
   - joemidi
 ---
 
-Currently BannerTime supports the following advertising platforms:
+Currently Bannertime supports the following advertising platforms:
 
 * DoubleClick Studio
 * Sizmek
