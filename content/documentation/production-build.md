@@ -31,7 +31,7 @@ $ gulp images
 #### Create backup images
 
 ```bash
-$ gulp backup-image
+$ gulp backup-gen
 ```
 
 #### Zip banners
