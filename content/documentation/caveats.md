@@ -3,6 +3,7 @@ title: Caveats
 sort: 10
 contributors:
     - pyramidium
+    - joemidi
 ---
 
 This is a roundup of workarounds for browser and platform related issues.
@@ -91,3 +92,26 @@ Banner.prototype.setup = function() {
 ```
 
 The webkit mask acts as a fallback for `border-radius` when rounding corners of an `overflow: hidden` element.
+
+### Safari <img> centering
+
+The `center()`, `centerHorizontal()`, or `centerVertical()` methods is unable to correctly position a `smartObject()` in Safari due to the time it takes the browser to calculate the objects `offsetWidth` or `offsetHeight` properties which are used to calculate negative margins.
+
+This can be worked around by either explicitly setting `width` and `height` properties. Or simply call the methods after a short delay.
+
+**1. Set width and height props**
+```js
+this.image = this.smartObject({
+  src: 'images/my-image.png',
+  width: 40,
+  height: 40,
+  parent: this.banner
+});
+```
+
+**2. Call the method after a short delays**
+```js
+setTimeout(() => {
+  this.image.center();
+}, 100);
+```
