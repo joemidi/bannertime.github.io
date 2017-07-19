@@ -56,7 +56,7 @@ EB.clickthrough(myVar);
 </script>
 ```
 
-### Webpack overflow
+### Webkit overflow
 
 Recently a webkit bug was discovered which prevented border-radius from working as expected. The desired effect was to round the edges of a parent element which would mask the overflow of its child elements.
 
