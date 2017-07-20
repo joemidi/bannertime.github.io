@@ -93,7 +93,7 @@ Banner.prototype.setup = function() {
 
 The webkit mask acts as a fallback for `border-radius` when rounding corners of an `overflow: hidden` element.
 
-### Safari <img> centering
+### Safari `<img>` centering
 
 The `center()`, `centerHorizontal()`, or `centerVertical()` methods is unable to correctly position a `smartObject()` in Safari due to the time it takes the browser to calculate the objects `offsetWidth` or `offsetHeight` properties which are used to calculate negative margins.
 
