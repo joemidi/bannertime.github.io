@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    <url>
         <loc>https://bannertime.github.io/index.html</loc>
     </url>    <url>
-        <loc>https://bannertime.github.io/guides/index.html</loc>
-    </url>    <url>
         <loc>https://bannertime.github.io/documentation/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/guides/index.html</loc>
     </url>    <url>
         <loc>https://bannertime.github.io/license/index.html</loc>
     </url>    <url>
         <loc>https://bannertime.github.io/writers-guide/index.html</loc>
     </url>    <url>
-        <loc>https://bannertime.github.io/guides/contributing/index.html</loc>
-    </url>    <url>
-        <loc>https://bannertime.github.io/guides/getting-started/index.html</loc>
-    </url>    <url>
-        <loc>https://bannertime.github.io/guides/installation/index.html</loc>
-    </url>    <url>
-        <loc>https://bannertime.github.io/guides/prompts/index.html</loc>
-    </url>    <url>
         <loc>https://bannertime.github.io/documentation/advertising-platforms/index.html</loc>
     </url>    <url>
         <loc>https://bannertime.github.io/documentation/caveats/index.html</loc>
     </url>    <url>
-        <loc>https://bannertime.github.io/documentation/development/index.html</loc>
-    </url>    <url>
         <loc>https://bannertime.github.io/documentation/file-structure/index.html</loc>
     </url>    <url>
         <loc>https://bannertime.github.io/documentation/production-build/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/guides/contributing/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/documentation/development/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/guides/getting-started/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/guides/prompts/index.html</loc>
+    </url>    <url>
+        <loc>https://bannertime.github.io/guides/installation/index.html</loc>
     </url></urlset>
