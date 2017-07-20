@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Source+Sans+Pro:200,400,400i,500" rel="stylesheet">
 
     
-      <link href="/8e07246682b3f1af2602.css" rel="stylesheet">
+      <link href="/d923dd859939deda1072.css" rel="stylesheet">
     
   </head>
   <body>
@@ -77,7 +77,7 @@ Banner.prototype.setup <span class="token operator">=</span> function<span class
   this.container.style.webkitMask <span class="token operator">=</span> <span class="token string">&apos;url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC)&apos;</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><p>The webkit mask acts as a fallback for <code>border-radius</code> when rounding corners of an <code>overflow: hidden</code> element.</p>
-<h3 class="header"><a class="anchor" href="#safari-img-centering" id="safari-img-centering"></a><span class="text">Safari <img> centering</span><a class="icon-link" href="#safari-img-centering"></a></h3>
+<h3 class="header"><a class="anchor" href="#safari-img-centering" id="safari-img-centering"></a><span class="text">Safari <code>&lt;img&gt;</code> centering</span><a class="icon-link" href="#safari-img-centering"></a></h3>
 <p>The <code>center()</code>, <code>centerHorizontal()</code>, or <code>centerVertical()</code> methods is unable to correctly position a <code>smartObject()</code> in Safari due to the time it takes the browser to calculate the objects <code>offsetWidth</code> or <code>offsetHeight</code> properties which are used to calculate negative margins.</p>
 <p>This can be worked around by either explicitly setting <code>width</code> and <code>height</code> properties. Or simply call the methods after a short delay.</p>
 <p><strong>1. Set width and height props</strong></p>
