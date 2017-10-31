@@ -50,3 +50,12 @@ $ yo bannertime
 # Issues
 
 If you think you have found a bug or error in the generator, open an issue on [GitHub](https://github.com/bannertime/generator-bannertime/issues) or ask for help on [Slack](https://bannertime.slack.com).
+
+## Slack Workspace
+You can invite yourself to our Slack Workspace using https://bannertime.herokuapp.com.
+
+# Further resources
+
+[Jason Baciulis](https://github.com/jasonbaciulis) Wrote a great tutorial on how to use Bannertime: http://codecrave.io/bannertime-tutorial/
+[Greensock Forums](https://greensock.com/forums/forum/10-html5-js/) Is a great place to ask questions about GSAP specifically
+[Animation at Work](https://damp-lake-50659.herokuapp.com/) A great Slack workspace to talk to others about animating for the web.
